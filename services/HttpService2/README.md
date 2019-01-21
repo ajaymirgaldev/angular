@@ -1,6 +1,10 @@
 # HttpService2
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+=======
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.
+>>>>>>> c925312b95c345cbfece6be9b3746f7baece9c8b
 
 ## Development server
 
