@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)" novalidate><br>
+    <input name="first" [(ngModel)]="firstName" #first="ngModel" placeholder="First Name"><br>
+    <input name="last" [(ngModel)]="lastName" #last="ngModel"  placeholder="Last Name" >
+    
+    <button>Submit</button>
+  </form>
+
+  <p>First name value: {{ first.value }}</p>
+  <p>First name valid: {{ first.valid }}</p>
+  <p>Form value: {{ myForm.value | json }}</p>
+  <p>Form valid: {{ myForm.valid }}</p>
+
+</div>
+<router-outlet></router-outlet>
